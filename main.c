@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(void)
 {
     int i;
     int a;
     int b;
 
-    printf("Wpisz pierwsza liczbe: ");
+    printf("Enter first number: ");
     scanf("%d", &a);
-    printf("Wpisz druga liczbe, wieksza niz poprzednia: ");
+    printf("Enter the second number, bigger than the previous one: ");
     scanf("%d", &b);
 
     if (a<b)
@@ -52,7 +52,7 @@ int main()
     }
     else
     {
-        printf("Bledne dane");
+        printf("Wrong data");
     }
     printf("\n");
     return 0;
